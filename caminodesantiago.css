@@ -134,148 +134,6 @@ body
    width: 100%;
    height: 100%;
 }
-#wb_CssMenu1
-{
-   border: 0px #1E90FF solid;
-   background-color: transparent;
-}
-#wb_CssMenu1 ul
-{
-   list-style-type: none;
-   margin: 0;
-   padding: 0;
-}
-#wb_CssMenu1 li
-{
-   float: left;
-   margin: 0;
-   padding: 0px 4px 0px 0px;
-   width: 320px;
-}
-#wb_CssMenu1 a
-{
-   display: block;
-   float: left;
-   color: #FFFFFF;
-   border: 0px #CCCCCC solid;
-   background-color: #1E90FF;
-   background-image: none;
-   font-family: Tahoma;
-   font-weight: normal;
-   font-size: 16px;
-   font-style: normal;
-   text-decoration: none;
-   width: 310px;
-   height: 40px;
-   padding: 0px 5px 0px 5px;
-   vertical-align: middle;
-   line-height: 40px;
-   text-align: center;
-}
-#wb_CssMenu1 li:hover a, #wb_CssMenu1 a:hover
-{
-   color: #FFFFFF;
-   background-color: #337AB7;
-   background-image: none;
-   border: 0px #2E6DA4 solid;
-}
-#wb_CssMenu1 li.firstmain
-{
-   padding-left: 0px;
-}
-#wb_CssMenu1 li.lastmain
-{
-   padding-right: 0px;
-}
-#wb_CssMenu1 li:hover, #wb_CssMenu1 li a:hover
-{
-   position: relative;
-}
-#wb_CssMenu1 a.withsubmenu
-{
-   padding: 0 5px 0 5px;
-   width: 310px;
-   background-image: none;
-}
-#wb_CssMenu1 li:hover a.withsubmenu, #wb_CssMenu1 a.withsubmenu:hover
-{
-   background-image: none;
-}
-#wb_CssMenu1 ul ul
-{
-   position: absolute;
-   left: 0;
-   top: 0;
-   visibility: hidden;
-   width: 320px;
-   height: auto;
-   border: none;
-   background-color: transparent;
-}
-#wb_CssMenu1 ul :hover ul
-{
-   left: 0px;
-   top: 40px;
-   padding-top: 0px;
-   visibility: visible;
-}
-#wb_CssMenu1 .firstmain:hover ul
-{
-   left: 0px;
-}
-#wb_CssMenu1 li li
-{
-   width: 320px;
-   padding: 0 0px 0px 0px;
-   border: 0px #337AB7 solid;
-   border-width: 0 0px;
-}
-#wb_CssMenu1 li li.firstitem
-{
-   border-top: 0px #337AB7 solid;
-}
-#wb_CssMenu1 li li.lastitem
-{
-   border-bottom: 0px #337AB7 solid;
-}
-#wb_CssMenu1 ul ul a, #wb_CssMenu1 ul :hover ul a
-{
-   float: none;
-   margin: 0;
-   width: 308px;
-   height: auto;
-   white-space: normal;
-   padding: 10px 6px 10px 6px;
-   background-color: #1E90FF;
-   background-image: none;
-   border: 0px #CCCCCC solid;
-   color: #FFFFFF;
-   font-family: Tahoma;
-   font-weight: normal;
-   font-size: 15px;
-   font-style: normal;
-   line-height: 15px;
-   text-align: center;
-   text-decoration: none;
-}
-#wb_CssMenu1 ul :hover ul .firstitem a
-{
-   margin-top: 0px;
-}
-#wb_CssMenu1 ul ul :hover a, #wb_CssMenu1 ul ul a:hover, #wb_CssMenu1 ul ul :hover ul :hover a, #wb_CssMenu1 ul ul :hover ul a:hover
-{
-   background-color: #337AB7;
-   background-image: none;
-   border: 0px #2E6DA4 solid;
-   color: #FFFFFF;
-}
-#wb_CssMenu1 br
-{
-   clear: both;
-   font-size: 1px;
-   height: 0;
-   line-height: 0;
-}
 #Image1
 {
    border: 0px #000000 solid;
@@ -283,4 +141,103 @@ body
    top: 0;
    width: 100%;
    height: 100%;
+}
+#wb_PanelMenu1 a, #PanelMenu1_markup li a
+{
+   display: block;
+   text-align: center;
+   vertical-align: middle;
+}
+#PanelMenu1_markup
+{
+   display: none;
+   margin: 0;
+   padding: 0;
+}
+#PanelMenu1_markup ul
+{
+   list-style: none;
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+#PanelMenu1_markup li a, #PanelMenu1_markup li a:hover
+{
+   padding: 10px 10px 10px 10px;
+   border-width: 0;
+   border-bottom-width: 1px;
+   border-radius: 0;
+   -webkit-box-shadow: none;
+   -moz-box-shadow: none;
+   box-shadow: none;
+}
+#PanelMenu1_panel
+{
+   display: none;
+   position: absolute;
+   position: fixed;
+   top: 0;
+   height: 100%;
+   width: 250px;
+   z-index: 9999;
+}
+#wb_PanelMenu1 a, #PanelMenu1_markup li a
+{
+   color: #F7F7F7;
+   border: 1px #00008B solid;
+   background-color: #00008B;
+   font-family: Tahoma;
+   font-weight: normal;
+   font-size: 19px;
+   font-style: normal;
+   text-decoration: none;
+}
+#wb_PanelMenu1 a:hover, #PanelMenu1_markup li a:hover
+{
+   color: #F7F7F7;
+   background-color: #00008B;
+   border: 1px #00008B solid;
+}
+#PanelMenu1_panel
+{
+   background-color: #00008B;
+   overflow-y: auto;
+}
+#PanelMenu1
+{
+   padding-right: 20px;
+}
+#PanelMenu1:after
+{
+   position: absolute;
+   top: 50%;
+   right: 8px;
+   width: 12px;
+   height: 12px;
+   margin-top: -6px;
+   content: "\f0c9";
+   display: inline-block;
+   font-family: FontAwesome;
+   font-size: 12px;
+   line-height: 12px;
+}
+#PanelMenu1
+{
+   line-height: 40px;
+   width: 298px;
+   height: 40px;
+}
+#PanelMenu1_markup ul li i
+{
+   font-size: 12px;
+   padding: 0px 0px 0px 10px;
+   vertical-align: middle;
+   width: 12px;
+}
+#PanelMenu1_markup span
+{
+   display: inline-block;
+   height: 12px;
+   vertical-align: middle;
+   line-height: 12px;
 }
